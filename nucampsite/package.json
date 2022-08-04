@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This is a website for the fictional campsites review site NuCamp.",
   "main": "index.html",
+  "engines": {
+    "node": "16.13.0"
+  },
   "scripts": {
     "lite": "lite-server",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
